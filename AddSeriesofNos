@@ -1,0 +1,16 @@
+//Add 1 to 10 values using for loop
+
+#include <iostream>
+
+using namespace std;
+
+void main() {
+
+  int value = 10;
+  int sum = 0;
+  
+  for(i=0; i <=value; i++)
+  sum +=value;
+  
+std::cout << "Sum of values 1 to 10 are : " << sum << std::endl;
+}

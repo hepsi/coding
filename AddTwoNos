@@ -14,7 +14,7 @@ int main()
   int sum = 0;
   std::cin >> v1 >> v2;
   sum = v1 + v2;
-  std::cout << "Sum of the given two values : " << sum;
+  std::cout << "Sum of the given two values : " << sum << std::endl;
   return 0;
 }
 

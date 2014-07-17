@@ -1,0 +1,21 @@
+//coding
+//======
+
+//Add given two numbers
+
+#include <iostream>
+
+  using namespace std;
+  
+int main()
+{
+  std::cout << "Enter two numbers to find the addition :" << std::endl;
+  int v1, v2;
+  int sum = 0;
+  std::cin >> v1 >> v2;
+  sum = v1 + v2;
+  std::cout << "Sum of the given two values : " << sum;
+  return 0;
+}
+
+

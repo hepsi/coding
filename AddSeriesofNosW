@@ -6,13 +6,14 @@ using namespace std;
 
 void main()
 {
-  int value = 10;
+  int value = 0;
   int sum = 0;
   
-  while(value != 10)
+  while(value <= 10)
   {
     sum = sum+value;
+    value++;
   }
-std::cout << "Sum of the values 1 to 10 are : " << std::endl;
+std::cout << "Sum of the values 1 to 10 are : " << sum << std::endl;
 
 }

@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void main()
+int main()
 {
   int value = 0;
   int sum = 0;
@@ -15,5 +15,5 @@ void main()
     value++;
   }
 std::cout << "Sum of the values 1 to 10 are : " << sum << std::endl;
-
+return 0;
 }

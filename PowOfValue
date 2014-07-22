@@ -1,0 +1,21 @@
+//Write a program to find the power to the given value
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+  int value;
+  std::cout << "Enter the base value : " << std::endl;
+  std::cin << value;
+  int power;
+  std::cout << "Enter the power value : " << std::endl;
+  std::cin << power;
+  int result = 1;
+  for ( int count = 0; count != power; count++)
+     result = result * value;
+  std::cout << "Result of " << value << " to the power of " 
+            << power << " is " << result << std::endl;
+  result 0;
+}

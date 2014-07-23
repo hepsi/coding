@@ -1,0 +1,21 @@
+//Write a program to test the scope of the variable.
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int marks = 65;
+   int k = 40;
+   // inside scope
+   {
+   int k = 30;
+   int marks = 85;
+   std::cout << "Inside scope Marks are " << marks << std::endl;
+   std::cout << "Inside scope k value is " << k << std::endl;
+   }
+std::cout << "Outside scope Marks are " << marks << std::endl;
+std::cout << "Outside scope k value is " << k << std::endl;
+return 0;
+}

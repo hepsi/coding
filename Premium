@@ -1,0 +1,24 @@
+//Write a program to find premium to be paid by a person to life insurance corporation 
+//for policy of Rs.100,000. Rule is that if age > 45, premium is Rs.6,500 otherwise
+//Rs.5,500. use ternary operator(? :)
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+  int age, premium, premium1, premium2, policy;
+  string name;
+  premium1 = 6500;
+  premium2 = 5500;
+  policy = 100000;
+  
+  std::cout << "Enter the name of the person : " << std::endl;
+  std::cin >> name;
+  std::cout << "Enter the age of " << name <<" : " << std::endl;
+  std::cin >> age;
+  premium = ( age > 45) ? premium1 : premium2;
+  std::cout << name <<" Premium " << premium << "for policy Rs.100,000" << std::endl;
+  return 0;
+}
